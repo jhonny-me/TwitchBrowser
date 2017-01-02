@@ -1,0 +1,65 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.header {
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+}
+
+.title {
+    margin: auto;
+    padding-top: 36px;
+    width: 200px;
+    text-align: center;
+}
+
+.labelBtn {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 40px;
+}
+.labelAll {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 40px;
+    height: 22px;
+    background-color: blanchedalmond;
+}
+
+.labelOnline {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    width: 40px;
+    background-color: green;
+}
+
+.labelOffline {
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    /*height: 10px;*/
+    width: 40px;
+    background-color: gray;
+}
+
+.labelAll:hover {
+    width: 80px;
+}
+
+.labelOnline:hover {
+    width: 80px;
+}
+
+.labelOffline:hover {
+    width: 80px;
+}
+
+.selected {
+    width: 80px
+}
