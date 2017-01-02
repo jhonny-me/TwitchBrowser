@@ -44,8 +44,8 @@ export default class ItemView extends React.Component {
         console.log(bkColor, this.props)
         return (
             <div style={{backgroundColor: bkColor}} className="ItemView">
-                <img src={logo} className="logo"></img>
-                <a href={this.props.nameUrl} className="name">{this.props.name}</a>
+                <img src={logo} className="logo" ></img>
+                <a href={this.props.nameUrl} target="_blank" className="name">{this.props.name}</a>
                 {detailLabel}
             </div>
         );
