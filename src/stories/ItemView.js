@@ -4,7 +4,7 @@
 import React, {PropTypes} from 'react'
 require('../css/ItemView.css')
 
-const placeholderImg = 'http://placehold.it/50x50'
+const placeholderImg = 'https://dummyimage.com/50x50/ffffff/2e2f33.png'
 export default class ItemView extends React.Component {
 
     static propTypes = {
